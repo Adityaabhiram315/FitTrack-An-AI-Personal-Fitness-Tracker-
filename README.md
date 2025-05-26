@@ -1,7 +1,8 @@
 
-# 🏋️‍♂️ FitSync – AI-Powered Fitness & Nutrition Tracker
+# 🏋️‍♂️ FitTrack – AI-Powered Fitness & Nutrition Tracker
 
-![Banner](./screenshots/banner.png)
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/f94fb259-1230-450f-922e-632d4089b55f" />
+
 
 **FitSync** is a sleek and minimalistic web-based fitness tracker that helps users monitor their health goals, track calories, receive smart food and workout suggestions, and interact with an integrated AI chatbot for personalized advice.
 
