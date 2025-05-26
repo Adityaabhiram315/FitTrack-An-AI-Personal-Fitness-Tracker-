@@ -4,7 +4,7 @@
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/f94fb259-1230-450f-922e-632d4089b55f" />
 
 
-**FitSync** is a sleek and minimalistic web-based fitness tracker that helps users monitor their health goals, track calories, receive smart food and workout suggestions, and interact with an integrated AI chatbot for personalized advice.
+**FitSTrack** is a sleek and minimalistic web-based fitness tracker that helps users monitor their health goals, track calories, receive smart food and workout suggestions, and interact with an integrated AI chatbot for personalized advice.
 
 Built using **Python (FastAPI or Flask)**, **Tailwind CSS**, and powered by the **Gemini AI API**, FitSync offers a personalized, motivating, and beautifully simple user experience.
 <img width="1440" alt="Screenshot 2025-05-26 at 10 10 03 AM" src="https://github.com/user-attachments/assets/af780304-4b1b-48df-b08a-eaaeec6cc192" />
