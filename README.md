@@ -1,14 +1,11 @@
-# FitTrack-An-AI-Personal-Fitness-Tracker-
 
-
-````markdown
 # 🏋️‍♂️ FitSync – AI-Powered Fitness & Nutrition Tracker
 
 ![Banner](./screenshots/banner.png)
 
 **FitSync** is a sleek and minimalistic web-based fitness tracker that helps users monitor their health goals, track calories, receive smart food and workout suggestions, and interact with an integrated AI chatbot for personalized advice.
 
-Built using **Python (FastAPI)**, **Tailwind CSS**, and powered by the **Gemini AI API**, FitSync offers a smooth, personalized, and motivating fitness experience.
+Built using **Python (FastAPI or Flask)**, **Tailwind CSS**, and powered by the **Gemini AI API**, FitSync offers a personalized, motivating, and beautifully simple user experience.
 
 ---
 
@@ -29,37 +26,36 @@ Built using **Python (FastAPI)**, **Tailwind CSS**, and powered by the **Gemini 
 ### 🤖 AI Chatbot  
 ![Chatbot](./screenshots/chatbot.png)
 
-### 🔥 Daily Streak UI  
+### 🔥 Daily Streak Tracker  
 ![Streak](./screenshots/streak.png)
 
 ---
 
 ## 🚀 Features
 
-- 🔐 **Secure Login & Signup** with password hashing
-- 👤 User Profile with age, gender, height, weight, activity level & goals
-- 🍽️ **Personalized Nutrition Plans** with veg/non-veg toggle
-- 🏋️ **Workout Recommendations** categorized by intensity & calorie burn
-- 🔢 **Calorie Intake Calculator** (Mifflin-St Jeor formula)
-- 🧠 **AI Chatbot** (via Gemini API) for fitness & diet Q&A
-- 🎯 **Step Count Suggestions** based on activity level
-- 📊 Dashboard with calories, steps, progress, and streaks
-- 🔥 **Animated Daily Streak Tracker** for motivation
-- 📱 Responsive design for mobile & desktop
-- ✨ Minimalist UI in soft green & white shades
+- 🔐 Secure Login & Signup with password hashing
+- 👤 User Profile setup (name, age, gender, weight, height, goals)
+- 🍽️ Personalized nutrition recommendations with **Veg / Non-Veg toggle**
+- 🏋️ Workout suggestions categorized by **Low**, **Medium**, and **High** intensity
+- 🔢 Calorie intake calculator based on Mifflin-St Jeor Equation
+- 📈 Progress dashboard with calories, steps, and workout tracking
+- 🔥 Daily streak tracker with fun and curious popup design
+- 🧠 AI chatbot integration using **Gemini API** for fitness guidance
+- 📱 Mobile responsive and minimalistic UI
+- 🎨 Light theme with very pale green and white color scheme
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer        | Technology               |
-|--------------|---------------------------|
-| Backend      | Python (FastAPI) or Flask |
-| Frontend     | HTML, Tailwind CSS        |
-| Auth         | JWT / Flask-Login         |
-| Database     | SQLite / PostgreSQL       |
-| AI Chatbot   | Gemini API (Google AI)    |
-| Deployment   | Render / Vercel / Heroku  |
+| Layer         | Technology               |
+|---------------|---------------------------|
+| Backend       | Python (FastAPI / Flask)  |
+| Frontend      | HTML, Tailwind CSS        |
+| Auth          | JWT or Flask-Login        |
+| Database      | SQLite or PostgreSQL      |
+| AI Chatbot    | Gemini API (Google AI)    |
+| Deployment    | Render / Vercel / Heroku  |
 
 ---
 
@@ -71,7 +67,7 @@ git clone https://github.com/yourusername/fitsync.git
 cd fitsync
 ````
 
-### 2. Set Up Python Environment
+### 2. Set Up the Environment
 
 ```bash
 python -m venv venv
@@ -79,9 +75,9 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
 
-### 3. Add Environment Variables
+### 3. Configure Environment Variables
 
-Create a `.env` file and add your Gemini API Key:
+Create a `.env` file in the root directory and add your Gemini API key:
 
 ```
 GEMINI_API_KEY=AIzaSyCRm5Uuvb-jl_kJ55WcW5keatIV7Jhmpu4
@@ -90,12 +86,18 @@ GEMINI_API_KEY=AIzaSyCRm5Uuvb-jl_kJ55WcW5keatIV7Jhmpu4
 ### 4. Run the Server
 
 ```bash
-uvicorn main:app --reload
+uvicorn main:app --reload  # for FastAPI
+# OR
+python app.py  # for Flask
 ```
 
-### 5. Access the App
+### 5. Visit the App
 
-Go to `http://localhost:8000` in your browser.
+Open your browser and go to:
+
+```
+http://localhost:8000
+```
 
 ---
 
@@ -109,33 +111,52 @@ Go to `http://localhost:8000` in your browser.
 ├── auth.py
 ├── models.py
 ├── chatbot.py
-├── routes/
+├── database.py
+├── /routes
 │   ├── nutrition.py
 │   ├── workout.py
 │   └── user.py
-├── database.py
-└── /screenshots
+├── /screenshots
+│   └── *.png
+└── .env
 ```
 
 ---
 
-## 🙌 Contributions
+## 💡 AI Chatbot
 
-Feel free to fork the repo, open issues, or submit pull requests. All contributions to improve FitSync are welcome!
+The AI chatbot is powered by **Google Gemini API**, which provides smart, personalized responses to fitness, diet, and lifestyle questions.
+
+### Example Prompts:
+
+* “What are good high-protein vegetarian meals?”
+* “Suggest a 30-min low-intensity workout.”
+* “How many calories do I burn doing jump rope?”
+
+---
+
+## 🙌 Contributing
+
+We welcome contributions! If you'd like to improve FitSync, feel free to:
+
+* ⭐ Star this repo
+* 🍴 Fork the project
+* ✅ Open a pull request
+* 🐛 Report bugs or request features in [Issues](https://github.com/yourusername/fitsync/issues)
 
 ---
 
 ## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
+Licensed under the [MIT License](LICENSE).
 
 ---
 
 ## ✨ Credits
 
-* Designed & Developed by [Your Name](https://github.com/yourusername)
-* AI Integration powered by **Gemini API**
-* UI inspired by Apple Health & Google Fit
+* Developed by [Your Name](https://github.com/yourusername)
+* UI inspired by Apple Fitness, Google Fit, and Noom
+* AI functionality powered by Google Gemini API
 
 ---
 
@@ -145,5 +166,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Let me know if you'd like this to be auto-generated with your GitHub username or if you'd like me to prepare a version with screenshot thumbnails and real file links.
+### ✅ Next Steps:
+- Save your screenshots in a `screenshots/` folder at your project root.
+- Replace `yourusername` with your GitHub handle.
+- Replace the image filenames with the actual ones you’ll use.
+- Upload this `README.md` to your GitHub repo.
+
+Let me know if you’d like a **dark mode toggle**, **progress export feature**, or an **admin dashboard** added next!
 ```
