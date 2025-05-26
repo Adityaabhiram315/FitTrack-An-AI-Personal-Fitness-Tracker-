@@ -15,6 +15,8 @@ Built using **Python (FastAPI or Flask)**, **Tailwind CSS**, and powered by the 
 ## 📸 Screenshots
 
 ### 👤 Signup / Login Page  
+<img width="483" alt="image" src="https://github.com/user-attachments/assets/1e183737-bccc-456d-b653-8a699064b944" />
+<img width="467" alt="image" src="https://github.com/user-attachments/assets/30bba6ea-b870-4145-a83d-c3e4090f0091" />
 
 
 ### 🧍 Profile Dashboard  
