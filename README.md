@@ -7,28 +7,29 @@
 **FitSync** is a sleek and minimalistic web-based fitness tracker that helps users monitor their health goals, track calories, receive smart food and workout suggestions, and interact with an integrated AI chatbot for personalized advice.
 
 Built using **Python (FastAPI or Flask)**, **Tailwind CSS**, and powered by the **Gemini AI API**, FitSync offers a personalized, motivating, and beautifully simple user experience.
+<img width="1440" alt="Screenshot 2025-05-26 at 10 10 03 AM" src="https://github.com/user-attachments/assets/af780304-4b1b-48df-b08a-eaaeec6cc192" />
 
+**Live Demo** 👉 [https://quiet-daifuku-f0c354.netlify.app](https://quiet-daifuku-f0c354.netlify.app)
 ---
 
 ## 📸 Screenshots
 
 ### 👤 Signup / Login Page  
-![Signup](./screenshots/signup.png)
+
 
 ### 🧍 Profile Dashboard  
-![Dashboard](./screenshots/dashboard.png)
 
-### 🥗 Nutrition Suggestions  
-![Nutrition](./screenshots/nutrition.png)
+<img width="1440" alt="Screenshot 2025-05-26 at 10 13 11 AM" src="https://github.com/user-attachments/assets/d8f41c50-e989-4741-a24b-a0e1202eeaf2" />
 
-### 🏋️ Workout Recommendations  
-![Workout](./screenshots/workout.png)
+### 🥗 Nutrition Tracking  
 
-### 🤖 AI Chatbot  
-![Chatbot](./screenshots/chatbot.png)
+<img width="1440" alt="Screenshot 2025-05-26 at 10 13 28 AM" src="https://github.com/user-attachments/assets/a36204dd-90cf-426a-94c0-956f86f1221d" />
 
-### 🔥 Daily Streak Tracker  
-![Streak](./screenshots/streak.png)
+### 🏋️ Workout Tracking & Recommendations  
+<img width="1440" alt="Screenshot 2025-05-26 at 10 13 56 AM" src="https://github.com/user-attachments/assets/8dfb50f5-5a9a-4ac7-b483-c23173267146" />
+
+
+### 🔥 Daily Streak Tracker  included  for rewards.
 
 ---
 
@@ -41,7 +42,7 @@ Built using **Python (FastAPI or Flask)**, **Tailwind CSS**, and powered by the 
 - 🔢 Calorie intake calculator based on Mifflin-St Jeor Equation
 - 📈 Progress dashboard with calories, steps, and workout tracking
 - 🔥 Daily streak tracker with fun and curious popup design
-- 🧠 AI chatbot integration using **Gemini API** for fitness guidance
+- 🧠 AI chatbot integration using **Gemini API** for fitness guidance ( upcoming)
 - 📱 Mobile responsive and minimalistic UI
 - 🎨 Light theme with very pale green and white color scheme
 
